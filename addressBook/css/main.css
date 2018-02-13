@@ -1,0 +1,81 @@
+
+
+body {
+
+	background-color: skyblue !important;
+}
+
+
+
+
+ @media (min-width:200px) and (max-width:2200px){
+
+
+
+.main{
+
+	width:300px;
+	height:600px;
+	background-color: #fff;
+	margin:0 auto;
+	margin-top:150px;
+	border-radius: 25px;
+	overflow: hidden;
+
+}
+
+.header{
+
+	background-color: #eee;
+	height:120px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+
+.add {
+	margin-top: 8px;
+	margin-right:4px;
+	float: right;
+	padding: 0;
+	background:none !important;
+	border:0px !important;
+
+}
+
+button:focus{
+
+	outline:0 !important;
+}
+
+
+.contact{
+
+	padding:20px;
+	font-size: 20px;
+}
+
+.searchBtn{
+	padding:40px;
+}
+
+.contact-inner{
+
+	overflow-y:auto;
+	max-height:400px;
+	width:280px;
+	margin-left:15px;
+
+}
+
+.contact-inner div{
+
+	overflow-y:auto;
+	max-height:100px;
+
+}
+
+
+
+
+ }
